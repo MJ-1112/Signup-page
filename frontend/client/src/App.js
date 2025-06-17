@@ -4,7 +4,6 @@ import Login from './components/Login.js';
 import Signup from './components/Signup.js';
 import Dashboard from './components/Dashboard.js';
 import 'react-toastify';
-import PrivateRoute from './components/authenticate.js';
 
 function App() {
   return (
@@ -13,7 +12,7 @@ function App() {
         <Route path='/' element={<Navigate to='/login'/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/signup' element={<Signup/>}/>
-        <Route path='/dashboard/' element={<PrivateRoute><Dashboard/></PrivateRoute>}/>
+        <Route path='/dashboard/' element={<Dashboard/>}/>
         </Routes>
       </div>
   );
