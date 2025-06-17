@@ -3,6 +3,7 @@ import {Routes, Route, Navigate} from 'react-router-dom';
 import Login from './components/Login.js';
 import Signup from './components/Signup.js';
 import Dashboard from './components/Dashboard.js';
+import 'react-toastify';
 
 function App() {
   return (
