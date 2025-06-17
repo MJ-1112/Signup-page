@@ -1,4 +1,5 @@
 import React from "react";
+import {Link}  from 'react-router-dom';
 
 function Dashboard() {
   return (
@@ -46,7 +47,9 @@ function Dashboard() {
           style={{
             cursor:'pointer'
           }}>Contact</li>
+          
         </ul>
+        <Link to ='/'><button>Logout</button></Link>
 
       </nav>
       <h1
