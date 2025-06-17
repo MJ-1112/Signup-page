@@ -48,8 +48,14 @@ function Dashboard() {
             cursor:'pointer'
           }}>Contact</li>
           
+        <Link to ='/'><button style={{
+          borderRadius:12,
+          width:100,
+          height:20,
+          backgroundColor:'wheat',
+          color:'black'
+        }}>Logout</button></Link>
         </ul>
-        <Link to ='/'><button>Logout</button></Link>
 
       </nav>
       <h1
