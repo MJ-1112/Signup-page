@@ -23,7 +23,7 @@ function Login() {
       if(!email || !password){
         return handleError('Email or Password not filled');
       }
-            const url ="http://localhost:3000/auth/login";
+            const url = `${process.env.REACT_APP_API_URL}/auth/login`;
             const response = await fetch(url,{
               method:"POST",
               headers: {
