@@ -50,10 +50,12 @@ function Dashboard() {
           
         <Link to ='/'><button style={{
           borderRadius:12,
-          width:100,
-          height:20,
-          backgroundColor:'wheat',
-          color:'black'
+          width:120,
+          height:50,
+          backgroundColor:'#262626',
+          color:'white',
+          fontSize:20,
+          marginLeft:450
         }}>Logout</button></Link>
         </ul>
 
@@ -63,7 +65,9 @@ function Dashboard() {
         display:'flex',
         alignItems:'center',
         justifyContent:'center',
-        color:"white"
+        color:"white",
+        fontSize:100,
+        marginTop:200
       }}>
         Welcome
       </h1>
