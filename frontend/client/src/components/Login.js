@@ -47,8 +47,7 @@ function Login() {
       const { message, success, token } = result;
 
       if (success) {
-        // ✅ Store token in localStorage
-        localStorage.setItem("token", token);
+
         handleSuccess(message);
 
         // ✅ Navigate after short delay
