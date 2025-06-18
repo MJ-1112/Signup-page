@@ -1,6 +1,6 @@
 # 🚀 Modern Signup Page
 
-![signup preview](https://signup-page-7vo8.vercel.app/login): https://signup-page-7vo8.vercel.app/login
+![signup preview](https://signup-page-7vo8.vercel.app/login): [https://signup-page-7vo8.vercel.app/login](https://signup-page-7vo8-iioypns99-mj-1112s-projects.vercel.app/login)
 
 ## ✨ Features
 
@@ -12,7 +12,7 @@
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** Next.js 14, React 18, Tailwind CSS (optional), MUI
+- **Frontend:**  React 18,  MUI
 - **Auth:** JWT Authentication
 - **Routing:**React App Router
 - **Deployment:** Vercel / Any hosting of your choice and Render
