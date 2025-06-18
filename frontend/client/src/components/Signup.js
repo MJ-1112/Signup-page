@@ -52,7 +52,7 @@ function Signup() {
         return handleError(message);
       }
       else if(error){
-        const details = error?.details[0].message;
+        const details = error?.details.message;
         handleError(details);
       }
       
