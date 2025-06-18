@@ -1,6 +1,6 @@
 # 🚀 Modern Signup Page
 
-![signup preview](https://signup-page-7vo8.vercel.app/login): [https://signup-page-7vo8.vercel.app/login](https://signup-page-7vo8-iioypns99-mj-1112s-projects.vercel.app/login)
+Preview: https://signup-page-7vo8.vercel.app/login
 
 ## ✨ Features
 
